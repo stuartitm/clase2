@@ -1,0 +1,61 @@
+Prerequisites:
+
+- Make sure that both have users in github or gitlab (Same repo for both students)
+- Make sure you have Git installed in your machine
+
+
+STUDENT 1
+
+1. Create a new public repository in Github: https://github.com/new
+2. Create a new folder in your computer
+3. Go to that folder and initialize a new repository
+4. Add a text file with some content
+5. Create a new commit
+6. Follow the instructions provided in Github "…or push an existing repository from the command line"
+	6.1 Add the origin
+	6.2 Push the changes
+7. Go to https://github.com/amartinezg/clase_noche/settings/collaboration and add the email of the student 2 as collaborator
+8. See if you have the file created in the repo
+
+STUDENT 2
+
+1. Accept the invitation reading the instructions provided in the email
+2. Clone the repo of the student 1. (git clone url_of_repo) (Important: Be careful where you execute the command, a new folder will be created where you execute it)
+3. Copy a image inside that folder
+4. Create a commit
+5. Push your changes to the origin (git push origin master)
+
+STUDENT 1
+
+1. Pull changes from origin in order to have the updated version of the repo (You should have 2 commits)
+
+PART II
+
+STUDENT 1
+
+1. Create a new branch
+2. Create a new file
+3. Modify the first file created
+4. Create a commit
+5. Push changes of THE BRANCH (git push origin name_of_branc_created)
+6. Create a pull request in github (https://help.github.com/articles/about-pull-requests/)
+7. Tell to student 2 that approves the pull request created.
+8. After the pull request is approved pull changes from github
+9. Make sure that you have the latest commit in master
+
+STUDENT 2.
+
+After the pull request is created by STUDENT 1 and approved by STUDENT 2.
+
+1. Pull changes from github
+2. Create a new branch
+3. Create a new file
+4. Modify the first file created by STUDENT 1
+5. Create a commit
+6. Push changes of THE BRANCH (git push origin name_of_branc_created)
+7. Create a pull request in github (https://help.github.com/articles/about-pull-requests/)
+8. Tell to student 1 that approves the pull request created.
+9. After the pull request is approved pull changes from github
+10. Make sure that you have the latest commit in master and tell STUDENT 1 that should pull the latest changes.
+
+Both should have at least 4 commits and 2 pull requests created, approved and closed.
